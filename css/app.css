@@ -155,9 +155,11 @@
     padding-top: 1px;
     padding-bottom: 1px;
     width: 100%;
+    height: 100%;
     background-color: #ff471a;
     border: solid white 4px;
     max-width: 200px;
+    min-height: 75px;
   }
 
   /* END OF HOME PAGE STYLING */
