@@ -217,6 +217,10 @@
     padding-left: 30%;
   }
 
+  .links a:hover {
+    color: #ff3300;
+  }
+
   .show {
     width: 100%;
     padding: 0px 10%;
@@ -310,10 +314,8 @@
     height: 100%;
     font-family: arial;
     font-size: 10px;
-    background-color: green;
-    bottom: 0px;
     margin: 0;
-    padding-bottom: 0;
+    padding: 10px 0;
   }
   /* END OF TEMPLATE STYLING */
 
