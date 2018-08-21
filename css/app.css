@@ -10,7 +10,8 @@
   *::after {
     box-sizing: inherit;
   }
-  
+
+ 
   body {
     background-color: #cccccc;
     width: 100%;
@@ -309,9 +310,10 @@
     height: 100%;
     font-family: arial;
     font-size: 10px;
-    margin: 0 0 0 0;
-    padding-bottom: 10px;
-    padding-top: 20px;
+    background-color: green;
+    bottom: 0px;
+    margin: 0;
+    padding-bottom: 0;
   }
   /* END OF TEMPLATE STYLING */
 
