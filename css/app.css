@@ -16,9 +16,11 @@
     background-color: #cccccc;
     width: 100%;
     max-height: 100%;
+    min-height: 100%;
     padding: 0 0;
     margin: 0;
     font-family: 'Exo', sans-serif; 
+    display: relative;
   }
 
   h2 {
@@ -49,6 +51,7 @@
     width: 100%;
     text-align: center;
     padding-top: 1px;
+    background-color: #cccccc;
   }
   
   header h1 {
@@ -67,28 +70,26 @@
   nav {
     width: 100%;
     position: relative;
-    padding-top: px;
-    margin-top: 0px;
+    padding-top: 2px;
+    margin: auto;
     height: 30px;
     background-color: white;
     font-family: arial, sans-serif;
-
   }
 
   nav ul{
-    font-size: 17px;
+    font-size: 12px;
     height: 30px;
     text-align: center;
     text-decoration: none;
-    display: block;
     padding-top: 4px;
   }
   
   nav ul li {
-    display: inline-block;
     width: 140px;
     padding-bottom: 6px;
-    margin: 0;
+    margin: auto;
+    display: inline-block;
   }
 
   nav button {
@@ -122,58 +123,37 @@
   /* HOME PAGE STYLING */
     
   .main {
-    width: 100%;
-    height: 60%;
+    min-width: 100%;
+    max-height: 60%;
+    min-height: 60%;
     position: relative;
     background-color: #cccccc;
-    padding: 35px 20px;
-
+    padding: 35px 30px;
+    bottom: 0px;
   }
-  
-  .main table {
-    padding: 0px 0px;
+
+  .main .container {
     width: 100%;
+    margin: auto;
+    padding: 5px 20%;
+  }
+
+  .main .container img {
+    min-height: 400px;
+    max-height: 400px;
+    max-width: 100%;
     position: relative;
-    margin: auto auto;
-    max-width: 660px;
-    border-spacing: 18px 0;
-  }
-  
-  
-  .main table tr td {
-    height: 100%;
-    width: 33.33%;
-    text-align: center;
   }
 
-    
-  .main table tr td #picture {
-    width: 100%;
-    height: 100%;
-    margin-top: 0px;
-    border: solid white 4px;
-    max-width: 200px;
-
+  #myCarousel {
+    background-position: relative;
+    min-height: 100%;
+    max-height: 100%;
+    bottom: 0;
+    margin: auto;
   }
   
-  img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .main table tr td #title {
-    text-align: center;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    width: 100%;
-    height: 100%;
-    background-color: #ff471a;
-    border: solid white 4px;
-    max-width: 200px;
-    min-height: 75px;
-  }
-
-  /* END OF HOME PAGE STYLING */
+ /* END OF HOME PAGE STYLING */
 
   /* OUR SERVICES PAGE */
 
@@ -346,11 +326,12 @@
 
   /* TEMPLATE STYLING */
   footer {
-    position: relative;
+    position: fixed;
     text-align: center;
     vertical-align: center;
     width: 100%; 
-    height: 100%;
+    min-height: 20px;
+    max-height: 20px;
     font-family: arial;
     font-size: 10px;
     margin: 0;
