@@ -10,9 +10,6 @@ html {
 	background-color: #cccccc;
 }
 
-body .container-fluid {
-	width: 100%;
-}
 
 header {
 	font-family: 'Exo', sans-serif;
@@ -252,52 +249,15 @@ ol.carousel-indicators li.active {
 	/* END OF TEMPLATE STYLING */
 
 	/* HOME PAGE STYLING */
-		
-	
+#title {
+	text-align: center;
+	font-family: Exo;
+}
 
-	
-
-
-	/* END OF OUR SERVICES STYLING */
-
-	/* CONTACT US STYLING */
-
-	.contact-container{
-		width: 100%;
-		margin: auto;
-		display: inline-block;
-		height: 100%;
-		padding-left: 10px;
-	}
-
-	.form-container {
-		width: 48%;
-		position: relative;
-		float: left;
-		border: solid black 2px;
-
-	}
-
-	.form-container form {
-		padding: 5px 20px;
-		display: block;
-		input
-	}
-
-	.contactdetails {
-		width: 48%;
-		float: right;
-		vertical-align: center;
-		height: 100%;
-
-	}
-
-	.contactdetails p {
-		padding-bottom: 8px;
-		vertical-align: center;
-	}
-
-	/* END OF CONTACT US STYLING */
+.form-container {
+	border: solid black 1px;
+	padding: 2px;
+}
 
 
 footer {
@@ -313,4 +273,3 @@ footer {
 	padding: 10px;
 	bottom: 0;
 }
-	/* END OF TEMPLATE STYLING */
