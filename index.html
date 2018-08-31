@@ -2,49 +2,88 @@
 <html>
 
 <head>
+  
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link type="text/css" href="css/app.css" rel="stylesheet">
+  <meta name="viewport" 
+  content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <link href="https://fonts.googleapis.com/css?family=Exo:700" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title></title> 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-
-<header>
-  <h1>Simply Electrical</h1>
-  <h4>Energy Solutions Made Easy</h4>
-</header>
-
-
-<nav>
-  <ul>
-    <li class="button"><button class="active" type="button"><a href="/index.html">Home</a></button></li>
-    <li class="button"><button type="button"><a href="/ourservices.html">Our Services</a></button></li>
-    <li class="button"><button type="button"><a href="/contactus.html">Contact Us</a></button></li>
-  </ul>
-</nav>
-
 
 <body>
 
-  <div class="main">
+  <!-- Website Heading -->
+  <header>
+    <div class="jumbotron text-center">
+      <h1>Simply Electrical</h1>
+      <h4>Energy Solutions Made Easy</h4>
+    </div>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-hidden col-sm-3">
+        <!-- Sidebar -->
+      </div>
+      <button class="col-xs-12 col-sm-2 active" id="active"type="button">
+        <a href="#">Home</a>
+      </button>
+      <button class="col-xs-12 col-sm-2" type="button">
+        <a href="#">Our Services</a>
+      </button>
+      <button class="col-xs-12 col-sm-2" type="button">
+        <a href="#">Contact Us</a>
+      </button>
+
+      <div class="col-xs-hidden col-sm-3">
+        <!-- Sidebar -->
+      </div>
+    </div>
+  </div>
+  </nav>
+
+  <!-- Responsive Main Content -->
+  <div class="main-content">
   <div class="container">
-   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="row">
+      <div class="col-xs-0 col-sm-4 col-md-2">
+        <p></p>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-8" id="main-content">
+        <div class="container">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+      <li data-target="#myCarousel" data-slide-to="8"></li>
+      <li data-target="#myCarousel" data-slide-to="9"></li>
+      <li data-target="#myCarousel" data-slide-to="10"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="https://cdn.pixabay.com/photo/2016/11/22/23/49/bright-1851267__340.jpg" alt="Lights" style="width:100%;">
+        <img src="C:\Users\Victoria\Desktop\MAIN PAGE SLIDESHOW\Horizontal\hmpg1.jpg" alt="Power Socket" style="width:100%;">
         <div class="carousel-caption">
           <h3></h3>
           <p></p>
@@ -63,7 +102,7 @@
         <img src="https://cdn.pixabay.com/photo/2015/09/20/12/18/electric-948208__340.jpg" alt="Testing" style="width:100%;">
         <div class="carousel-caption">
           <h3></h3>
-          <p></p>
+          <p></p> 
         </div>
       </div>
   
@@ -81,12 +120,17 @@
   </div>
 </div>
 </div>
-
-
+      </div>
+      <div class="col-xs-0 col-sm-4 col-md-2">
+        <p></p>
+      </div>
+    </div>
+  </div> 
 
   <footer>
     Copyright &copy; 2018 Simply Electrical, NZ. All rights reserved.<br>
 
   </footer>
+
 </body>
 </html>
