@@ -1,72 +1,114 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link type="text/css" href="css/app.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Exo:700" rel="stylesheet">
+
+  <meta charset="utf-8">
+  <meta name="viewport" 
+  content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Exo:700" rel="stylesheet">
+
+    <title></title>
+
 </head>
 
-<header>
-  <a name="backtotop"></a>
-  <h1>Simply Electrical</h1>
-  <h4>Energy Solutions Made Easy</h4> 
-</header>
+<!-- Website Heading -->
+  <header>
+    <div class="jumbotron text-center">
+      <h1>Simply Electrical</h1>
+      <h3>Energy Made Easy</h3>
+    </div>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-hidden col-sm-3">
+        <!-- Sidebar -->
+      </div>
+      <button class="col-xs-12 col-sm-2" type="button">
+        <a href="/index.html">Home</a>
+      </button>
+      <button class="col-xs-12 col-sm-2" type="button">
+        <a href="#">Our Services</a>
+      </button>
+      <button class="col-xs-12 col-sm-2 active" id="active" type="button">
+        <a href="/contactus.html">Contact Us</a>
+      </button>
+
+      <div class="col-xs-hidden col-sm-3">
+        <!-- Sidebar -->
+      </div>
+    </div>
+  </div>
+  </nav>
 
 
-<nav>
-  <ul>
-    <li class="button"><button type="button"><a href="/index.html">Home</a></button></li>
-    <li class="button"><button type="button"><a href="/ourservices.html">Our Services</a></button></li>
-    <li class="button"><button class="active" type="button"><a href="/contactus.html">Contact Us</a></button></li>
-  </ul>
-</nav>
+  <!-- Responsive Main Content -->
 
+  <div class="main-content">
+    <div class="container-fluid" id="title">
+      <h3>Contact Us</h3>
+    </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-7">
 
-<body>
+        <div class="contact-container">
 
-  <h2 class="title">Contact Us</h2>
+          <div class="form-container">
+            <p>Please fill in the contact form below. We aim to respond to all enquiries within 24 hours.</p>
 
-  <div class="contact-container">
+            <form>
 
-  <div class="form-container">
-  <p>Please fill in the contact form below. We aim to respond to all enquiries within 24 hours.</p>
+              Name:
+              <input type="text" name="Name" placeholder="Name"><br>
 
-  <form>
+              Email:
+              <input type="email" name="email" placeholder="Email"><br>
 
-    Name:<br>
-    <input type="text" name="Name" placeholder="Name"><br>
+              Phone:
+              <input type="tel" name="phone"><br>
 
-    Email:<br>
-    <input type="email" name="email" placeholder="email"><br>
+              Preferred Method of Contact:<br>
+              <input type="radio" name="contact" value="Phone" checked> Phone<br>
+              <input type="radio" name="contact" value="Email"> Email<br>
 
-    Phone:<br>
-    <input type="tel" name="phone"><br>
+              Message:
+              <textarea name="message" style="width: 100%; height: 100px"></textarea><br>
 
-    Preferred Method of Contact:<br>
-    <input type="radio" name="contact" value="Phone" checked> Phone<br>
-    <input type="radio" name="contact" value="Email"> Email<br>
+              <button type="button" onclick="alert('Your message has been submitted. We will respond shortly. Thank you.')">Submit</button>
 
-    Message:
-    <textarea name="message" style="width: 100%; height: 100px"></textarea><br>
+            </form>
 
-    <button type="button" onclick="alert('Your message has been submitted. We will respond shortly. Thank you.')">Submit</button>
+          </div>
+        </div>
+      </div>
 
-  </form>
+      <div class="col-xs-12 col-sm-5">
+          <div class="contactdetails">
+            <p>Phone: (09) 836 6123</p>
+            <p>Mobile: (021) 123 4567</p>
+            <p>Email: michael.harris@hotmail.com</p>
+          </div>
+      </div>
+
+    </div>
+  </div>
 
 </div>
-
-<div class="contactdetails">
-  <p>Phone: (09) 836 6123</p>
-  <p>Mobile: (021) 123 4567</p>
-  <p>Email: michael.harris@hotmail.com</p>
-</div>
-
-</div>
-
 
   <footer>
+    <div class="container-fluid">
     Copyright &copy; 2018 Simply Electrical, NZ. All rights reserved.<br>
+  </div>
   </footer>
 
 </body>
