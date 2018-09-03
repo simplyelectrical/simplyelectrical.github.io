@@ -69,14 +69,13 @@ nav .container .row button:hover {
 }
 
 .jumbotron {
-	background-color: #cccccc;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
 
 #home-content {
-	padding-top: 20px;
-	padding-bottom: 0px;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	margin-bottom: 0;
 	background-color: #cccccc;
 }
