@@ -3,9 +3,10 @@ html {
 	background-color: #cccccc;
 }
 
- body {
+body {
 	width: 100%;
 	height: 100%;
+	max-height: 100%;
 	margin: 0;
 	background-color: #cccccc;
 }
@@ -25,8 +26,8 @@ header .jumbotron {
 header .jumbotron h1 {
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 15%;
+	margin-right: 15%;
 	border-bottom: solid black 2px;
 }
 nav .container {
@@ -48,41 +49,56 @@ nav button a {
 	text-decoration: none;
 }
 
+nav button a:hover {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
 nav .container .row button.active {
-	background-color: #ff650c;
+	background-color: #f65e0e;
+	border: solid #f46910 1px;
 }
 	 
 nav .container .row button.active:hover {
-	border: solid #ff3300 2px;
+	border: inset #ff3300 1px;
 }
 	
 nav .container .row button:hover {
-	border: solid #ff3300 2px; 
+	border: inset #ff3300 1px; 
 }
 
-.main-content {
+.jumbotron {
 	background-color: #cccccc;
-	margin: auto;
-	padding: 30px 20px;
-	height: 100%;
-	bottom: 0;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
-.main-content .jumbotron {
+#home-content {
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 0;
+	background-color: #cccccc;
+}
+
+.jumbotron .main-content {
 	padding: 0;
+	margin: 0;
 	background-color: #cccccc;
 }
 
-.main-content .jumbotron .row {
-	margin: auto;
+.jumbotron .main-content .row {
 	height: 100%;
 	width: 100%;
+	margin: auto;
 }
 
 #homepage {
 	width: 100%;
 	text-align: center;
 	font-family: Exo;
+	background-color: #cccccc;
+	padding-top: 8px;
 }
 
 #homepage ul {
@@ -94,6 +110,7 @@ nav .container .row button:hover {
 	display: inline-block;
 	padding: 0 7px;
 }
+
 
 #myCarousel {
 		background-position: relative;
@@ -235,6 +252,7 @@ ol.carousel-indicators li.active {
 		min-height: 400px;
 		position: relative;
 		margin: auto;
+		background-color: green;
 		}
 
 	.active {
@@ -277,12 +295,18 @@ footer {
 	width: 100%;
 	position: fixed;
 	text-align: center;
+	vertical-align: center;
 	font-size: 10px;
-	height: 30px;
+	height: 40px;
 	min-height: 30px;
-	max-height: 30px;
-	margin: 0;
+	max-height: 40px;
 	padding: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
 	bottom: 0;
+}
+
+footer p {
+	padding-bottom: 10px;
 }
 
