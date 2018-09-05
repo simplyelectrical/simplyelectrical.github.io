@@ -2,49 +2,80 @@
 <html>
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link type="text/css" href="css/app.css" rel="stylesheet">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" 
+  content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <link href="https://fonts.googleapis.com/css?family=Exo:700" rel="stylesheet">
+
+  <title>Simply Electrical</title> 
+
 </head>
-
-<header>
-  <a name="backtotop"></a>
-  <h1>Simply Electrical</h1>
-  <h4>Energy Solutions Made Easy</h4> 
-</header>
-
-
-<nav>
-  <ul>
-    <li class="button"><button type="button"><a href="/index.html">Home</a></button></li>
-    <li class="button"><button class="active" type="button"><a href="/ourservices.html">Our Services</a></button></li>
-    <li class="button"><button type="button"><a href="/contactus.html">Contact Us</a></button></li>
-  </ul>
-</nav>
-
 
 <body>
 
-  <h2 class="title">Our Services</h2>
+  <!-- Website Heading -->
+  <header>
+    <div class="jumbotron text-center">
+      <h1>Simply Electrical</h1>
+      <h4>Energy Solutions Made Easy</h4>
+    </div>
+  </header>
 
-  <div class="links">
-    <ul>
-      <li><a href="#lighting">Lighting</a></li>
-      <li><a href="#poweroutlets">Power Outlets</a></li>
-      <li><a href="#securitylights">Security Lights</a></li>
-      <li><a href="#rcdprotection">RCD Protection</a></li>
-      <li><a href="#controlandsensors">Control and Sensors</a></li>
-      <li><a href="#extractorfans">Extractor Fans</a></li>
-      <li><a href="#towelrails">Heated Towel Rails</a></li>
-      <li><a href="#hotwater">Hot Water Cylinders</a></li>
-      <li><a href="#oven">Oven Replacements</a></li> 
-      <li><a href="#switch">Switch Board Upgrades</a></li>  
-      <li><a href="#outdoor">Outdoor Power Supplies</a></li>
-      <li><a href="#testing">Inspections and Testing</a></li>
-    </ul>
-  </div>  
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-hidden col-sm-3">
+        <!-- Sidebar -->
+      </div>
+      <button class="col-xs-12 col-sm-2 active" id="active"type="button">
+        <a href="#">Home</a>
+      </button>
+      <button class="col-xs-12 col-sm-2" type="button">
+        <a href="#">Our Services</a>
+      </button>
+      <button class="col-xs-12 col-sm-2" type="button">
+        <a href="#">Contact Us</a>
+      </button>
 
-  <div class="show">
+      <div class="col-xs-hidden col-sm-3">
+        <!-- Sidebar -->
+      </div>
+    </div>
+  </div>
+  </nav>
+
+<body>
+  <!-- Responsive Main Content -->
+  <div class="jumbotron" id="main-base">  
+    <h2 id="title">Our Services</h2>
+    <div class="links">
+      <ul>
+        <li><a href="#lighting">&bull; Lighting</a></li>
+        <li><a href="#poweroutlets">&bull; Power Outlets</a></li>
+        <li><a href="#securitylights">&bull; Security Lights</a></li>
+        <li><a href="#rcdprotection">&bull; RCD Protection</a></li>
+        <li><a href="#controlandsensors">&bull; Control and Sensors</a></li>
+        <li><a href="#extractorfans">&bull; Extractor Fans</a></li>
+        <li><a href="#towelrails">&bull; Heated Towel Rails</a></li>
+        <li><a href="#hotwater">&bull; Hot Water Cylinders</a></li>
+        <li><a href="#oven">&bull; Oven Replacements</a></li> 
+        <li><a href="#switch">&bull; Switch Board Upgrades</a></li>  
+        <li><a href="#outdoor">&bull; Outdoor Power Supplies</a></li>
+        <li><a href="#testing">&bull; Inspections and Testing</a></li>
+      </ul>
+    </div>
+    </div> 
+
+    <div class="show">
 
   <ul>
     <li>
@@ -237,7 +268,7 @@
 </div>
 
   <footer>
-    Copyright &copy; 2018 Simply Electrical, NZ. All rights reserved.<br>
+    Copyright &copy; 2018 Simply Electrical, NZ. All rights reserved.<br>Website by Victoria Williams
   </footer>
 
 
