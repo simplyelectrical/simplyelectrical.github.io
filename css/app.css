@@ -38,35 +38,44 @@ nav .container {
 	color: orange;
 	margin-top: 0px;
 	padding-top: 0px;
+	margin-left: 0;
+	margin-right: 0;
 }
 
-nav .container .row button {
-	background-color: #ff650c;
-	border: outset #fff 1px;
+nav .container .row a {
+	background-color: #ff5100;
+	border: solid #3d3d3d 1px;
 }
 
-nav button a {
+nav a {
 	color: black;
 	padding: 2px 0px;
 	text-decoration: none;
 }
 
-nav button a:hover {
+nav a:hover {
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
 }
 
-nav .container .row button.active {
-	background-color: #f65e0e;
-	border: solid #f46910 1px;
+nav .container .row #nav-button {
+	width: 100%;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin: auto;
+}
+nav .container .row #nav-button.active {
+	background-color: #fa3f00;
+	border: inset #3d3d3d 1px;
+	font-weight: bold;
 }
 	 
-nav .container .row button.active:hover {
-	border: inset #ff3300 1px;
+nav .container .row #nav-button.active:hover {
+	border: outset #ff3300 1px;
 }
 	
-nav .container .row button:hover {
+nav .container .row #nav-button:hover {
 	border: inset #ff3300 1px; 
 }
 
