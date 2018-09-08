@@ -154,7 +154,6 @@ nav .container .row #nav-button:hover {
 #service-container .row #image img {
 	padding-left: 10%;
 	padding-right: 10%;
-	} {
 	margin: 0;
 	display: relative;
 }
@@ -282,7 +281,6 @@ ol.carousel-indicators li.active {
 
 	.show li {
 		max-width: 100%;
-		border-bottom: solid black 2px;
 		height: 100%;
 		overflow: hidden;
 		padding: 0px 10px;
