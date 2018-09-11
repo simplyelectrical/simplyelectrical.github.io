@@ -253,6 +253,10 @@ ol.carousel-indicators li.active {
 	min-height: 100%;
 }
 
+#service-slide-img {
+	padding: 0px;
+}
+
 	.top button {
 		background-color: #ff471a;
 		position: fixed;
