@@ -1,6 +1,7 @@
  /* TEMPLATE STYLING */
 html {
 	background-color: #cccccc;
+	width: 100%;
 }
 
 body {
@@ -8,6 +9,7 @@ body {
 	height: 100%;
 	max-height: 100%;
 	margin: 0;
+	padding: 0;
 	background-color: #cccccc;
 }
 
@@ -36,35 +38,44 @@ nav .container {
 	color: orange;
 	margin-top: 0px;
 	padding-top: 0px;
+	margin-left: 0;
+	margin-right: 0;
 }
 
-nav .container .row button {
-	background-color: #ff650c;
-	border: outset #fff 1px;
+nav .container .row a {
+	background-color: #ff5100;
+	border: solid #3d3d3d 1px;
 }
 
-nav button a {
+nav a {
 	color: black;
 	padding: 2px 0px;
 	text-decoration: none;
 }
 
-nav button a:hover {
+nav a:hover {
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
 }
 
-nav .container .row button.active {
-	background-color: #f65e0e;
-	border: solid #f46910 1px;
+nav .container .row #nav-button {
+	width: 100%;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin: auto;
+}
+nav .container .row #nav-button.active {
+	background-color: #fa3f00;
+	border: inset #3d3d3d 1px;
+	font-weight: bold;
 }
 	 
-nav .container .row button.active:hover {
-	border: inset #ff3300 1px;
+nav .container .row #nav-button.active:hover {
+	border: outset #ff3300 1px;
 }
 	
-nav .container .row button:hover {
+nav .container .row #nav-button:hover {
 	border: inset #ff3300 1px; 
 }
 
@@ -73,9 +84,9 @@ nav .container .row button:hover {
 	padding-bottom: 0px;
 }
 
-#home-content {
-	padding-top: 5%;
-	padding-bottom: 5%;
+#main-base {
+	padding-top: 2%;
+	padding-bottom: 2%;
 	margin-bottom: 0;
 	background-color: #cccccc;
 }
@@ -90,6 +101,61 @@ nav .container .row button:hover {
 	height: 100%;
 	width: 100%;
 	margin: auto;
+}
+
+#services {
+	width: 100%;
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	background-color: #cccccc;
+}
+
+#services .row {
+	margin: auto;
+}
+
+#services h3 {
+	font-family: 'Exo';
+	margin-top: 0px;
+	padding-top: 5px;
+	width: 100%;
+}
+
+#services p {
+	font-family: arial;
+	font-size: 14px;
+	text-align: justify;
+}
+
+#services img {
+	margin: auto;
+	width: 100%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+#service-container {
+	border-bottom: solid black 2px;
+}
+
+#service-container .row {
+	padding-bottom: 10px;
+	margin: auto;
+}
+
+#service-container .row #image {
+	padding-left: 10%;
+	padding-right: 10%;
+	margin: auto;
+	margin-bottom: 5px;
+}
+
+#service-container .row #image img {
+	padding-left: 10%;
+	padding-right: 10%;
+	margin: 0;
+	display: relative;
 }
 
 #homepage {
@@ -187,6 +253,10 @@ ol.carousel-indicators li.active {
 	min-height: 100%;
 }
 
+img #service-slide-img {
+	padding: 0px;
+}
+
 	.top button {
 		background-color: #ff471a;
 		position: fixed;
@@ -215,16 +285,10 @@ ol.carousel-indicators li.active {
 
 	.show li {
 		max-width: 100%;
-		border-bottom: solid black 2px;
 		height: 100%;
 		overflow: hidden;
 		padding: 0px 10px;
 
-	}
-
-	.subtitle {
-		width: 100%;
-		padding-bottom: 0px;
 	}
 
 	.show li p {
@@ -251,7 +315,7 @@ ol.carousel-indicators li.active {
 		min-height: 400px;
 		position: relative;
 		margin: auto;
-		background-color: green;
+		background-color: #cccccc;
 		}
 
 	.active {
@@ -267,21 +331,66 @@ ol.carousel-indicators li.active {
 	}
 
 	@-webkit-keyframes fade {
-		from {opacity: .4} 
+		from {opacity: .2} 
 		to {opacity: 1}
 	}
 
 	@keyframes fade {
-		from {opacity: .4} 
+		from {opacity: .2} 
 		to {opacity: 1}
 	}
 
 
-	/* HOME PAGE STYLING */
 #title {
 	text-align: center;
 	font-family: Exo;
 }
+
+
+.links {
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10%;
+    padding-right: 10%;
+   	margin: auto;
+   	position: relative;
+   	display: block
+}
+
+.links ul {
+	margin: auto;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 100%;
+}
+
+.links ul li {
+    display: inline-block;
+    padding-bottom: 6px;
+    font-size: 12px;
+    font-family: arial;
+    text-align: left;
+    margin: auto;
+    width: 150px;
+  }
+
+  .links ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .links ul li a:hover {
+  	color: #ff3300;
+  }
+
+  .img-container {
+
+  }
+
 
 .form-container {
 	border: solid black 1px;
