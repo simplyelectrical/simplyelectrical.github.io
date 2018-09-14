@@ -254,7 +254,10 @@ ol.carousel-indicators li.active {
 }
 
 img #service-slide-img {
-	padding: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: auto;
+	width: 100%;
 }
 
 	.top button {
