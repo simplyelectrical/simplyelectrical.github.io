@@ -247,7 +247,7 @@ ol.carousel-indicators li.active {
 	position: absolute;
 	top: 0;
 	left: 0;
-	min-width: 300px;
+	min-width: 100%;
 	max-width: 100%;
 	max-height: 100%;
 	min-height: 100%;
@@ -258,6 +258,7 @@ img #service-slide-img {
 	padding-right: 0px;
 	margin: auto;
 	width: 100%;
+	max-width: 524px;
 }
 
 	.top button {
