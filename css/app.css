@@ -253,7 +253,7 @@ ol.carousel-indicators li.active {
 	min-height: 100%;
 }
 
-.carousel-inner .item img #service-slide-img {
+.carousel-inner .item .active img #service-slide-img {
 	padding-left: 0px;
 	padding-right: 0px;
 	margin: auto;
