@@ -243,7 +243,7 @@ ol.carousel-indicators li.active {
 	color: #777;
 
 }
-.carousel-inner > .item > img {
+.carousel-inner .item img {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -253,7 +253,7 @@ ol.carousel-indicators li.active {
 	min-height: 100%;
 }
 
-img #service-slide-img {
+.carousel-inner .item img #service-slide-img {
 	padding-left: 0px;
 	padding-right: 0px;
 	margin: auto;
