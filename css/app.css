@@ -15,14 +15,14 @@ body {
 
 
 header {
-	font-family: 'Exo', sans-serif;
+	font-family: 'Abril Fatface', cursive;
 }
 
 header .jumbotron {
 	padding: 15px 0px;
 	margin-bottom: 0px;
 	background-color: #cccccc;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Abril Fatface', cursive;
 }
 
 header .jumbotron h1 {
@@ -34,8 +34,7 @@ header .jumbotron h1 {
 }
 
 header #logo {
-	border: solid black 2px;
-	max-height: 50px;
+	max-height: 63px;
 	margin-right: 10px;
 }
 nav .container {
