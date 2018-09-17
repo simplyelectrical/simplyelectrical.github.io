@@ -278,6 +278,7 @@ ol.carousel-indicators li.active {
 		right: 5px;
 		font-size: 10px;
 		font-family: arial;
+		float: right;
 	}
 
 
