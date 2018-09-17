@@ -39,6 +39,8 @@ header #logo {
 	max-height: 146px;
 	margin-right: 10px;
 	vertical-align: center;
+	display: inline-block;
+	position: relative;
 }
 nav .container {
 	width: 100%;
