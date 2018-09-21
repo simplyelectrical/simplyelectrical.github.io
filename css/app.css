@@ -183,7 +183,7 @@ nav .container .row #nav-button:hover {
 	display: relative;
 }
 
-#homepage {
+.container-fluid #homepage {
 	width: 100%;
 	text-align: center;
 	font-family: Exo;
