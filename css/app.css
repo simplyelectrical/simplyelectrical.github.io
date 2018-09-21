@@ -35,12 +35,10 @@ header .jumbotron h1 {
 header #logo {
 	margin: auto;
 	height: 80%;
-	max-height: 146px;
+	max-height: 100px;
 	margin-right: 10px;
 	vertical-align: center;
-	display: inline-block;
 	position: relative;
-	float: right;
 }
 nav .container {
 	width: 100%;
