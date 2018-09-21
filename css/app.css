@@ -98,7 +98,7 @@ nav .container .row #nav-button:hover {
 
 #main-base {
 	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-bottom: 45px;
 	margin-bottom: 0;
 	background-color: #cccccc;
 }
@@ -183,13 +183,14 @@ nav .container .row #nav-button:hover {
 	display: relative;
 }
 
-.container-fluid #homepage {
+#homepage {
 	width: 100%;
 	text-align: center;
 	font-family: Exo;
 	background-color: #cccccc;
 	padding-top: 8px;
 	margin-bottom: 5px;
+	position: relative;
 }
 
 #homepage ul {
