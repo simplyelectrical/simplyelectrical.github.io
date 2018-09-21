@@ -25,6 +25,10 @@ header .jumbotron {
 	font-family: 'Abril Fatface', cursive;
 }
 
+header .row {
+	width: 100%;
+}
+
 header .jumbotron h1 {
 	padding-top: 5px;
 	padding-bottom: 10px;
@@ -103,13 +107,14 @@ nav .container .row #nav-button:hover {
 	padding: 0;
 	margin: auto;
 	background-color: #cccccc;
-	max-width: 524px;
+	max-width: 500px;
 }
 
 .jumbotron .main-content #homepage-img {
 	margin: auto;
-	width: 80%;
+	width: 100%;
 	border: solid black 2px;
+	overflow: hidden;
 }
 
 .jumbotron .main-content .row {
@@ -420,6 +425,7 @@ ol.carousel-indicators li.active {
 
 footer {
 	background-color: #cccccc;
+	max-width: 100%;
 	width: 100%;
 	position: fixed;
 	text-align: center;
