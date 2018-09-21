@@ -106,6 +106,12 @@ nav .container .row #nav-button:hover {
 	max-width: 524px;
 }
 
+.jumbotron .main-content #homepage-img {
+	margin: auto;
+	width: 80%;
+	border: solid black 2px;
+}
+
 .jumbotron .main-content .row {
 	height: 100%;
 	width: 100%;
