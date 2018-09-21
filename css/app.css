@@ -117,6 +117,11 @@ nav .container .row #nav-button:hover {
 	overflow: hidden;
 }
 
+.jumbotron .main-content .container {
+	padding: 0;
+	margin: auto;
+}
+
 .jumbotron .main-content .row {
 	height: 100%;
 	width: 100%;
