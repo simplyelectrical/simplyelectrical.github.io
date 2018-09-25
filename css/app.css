@@ -36,8 +36,9 @@ header .jumbotron h1 {
 	border-bottom: solid black 2px;
 }
 
-header #logo {
+header .jumbotron #logo {
 	margin: auto;
+	padding: 0;
 	height: 50%;
 	max-height: 80px;
 	min-height: 40px;
