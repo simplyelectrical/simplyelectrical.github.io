@@ -27,6 +27,7 @@ header .jumbotron {
 
 header .jumbotron.text-center .row {
 	width: 100%;
+	margin: 0;
 }
 
 header .jumbotron h1 {
