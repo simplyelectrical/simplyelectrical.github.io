@@ -25,7 +25,7 @@ header .jumbotron {
 	font-family: 'Abril Fatface', cursive;
 }
 
-header .row {
+header .jumbotron.text-center .row {
 	width: 100%;
 }
 
