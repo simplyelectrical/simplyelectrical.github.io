@@ -115,7 +115,7 @@ nav .container .row #nav-button:hover {
 
 .jumbotron .main-content #homepage-img {
 	margin: auto;
-	width: 100%;
+	width: 80%;
 	border: solid black 2px;
 	overflow: hidden;
 }
