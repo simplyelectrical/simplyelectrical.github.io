@@ -211,6 +211,12 @@ nav .container .row #nav-button:hover {
 	padding: 0 7px;
 }
 
+.containter-fluid picture {
+	margin: auto;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
 .container-fluid picture img {
 	width: 20%;
 	display: inline;
