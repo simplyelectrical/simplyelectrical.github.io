@@ -216,6 +216,7 @@ nav .container .row #nav-button:hover {
 	padding-right: 5%;
 	width: 100%;
 	margin: 0;
+	display: inline;
 }
 
 
