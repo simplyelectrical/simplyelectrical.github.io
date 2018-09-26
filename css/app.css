@@ -225,9 +225,21 @@ nav .container .row #nav-button:hover {
 	display: inline-block;
 }
 
+#registeredlogo {
+	display: inline-block;
+	margin-left: 8%;
+}
+
 #masterlogo {
 	padding-left: 2%;
 	padding-right: 2%;
+	display: inline-block;
+}
+
+#sitesafelogo {
+	display: inline-block;
+	margin-left: 8%;
+}	
 }
 
 
