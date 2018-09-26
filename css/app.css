@@ -216,8 +216,13 @@ nav .container .row #nav-button:hover {
 	padding-right: 5%;
 }
 
+.container-fluid #registeredlogos span {
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
 
-.container-fluid #registeredlogos img {
+.container-fluid #registeredlogos span img {
 	width: 30%;
 	position: relative;
 	display: inline-block;
