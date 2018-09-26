@@ -211,6 +211,11 @@ nav .container .row #nav-button:hover {
 	padding: 0 7px;
 }
 
+.container-fluid picture img {
+	width: 20%;
+	display: inline;
+}
+
 
 #myCarousel {
 		background-position: relative;
